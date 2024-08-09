@@ -66,3 +66,20 @@ button:active{
 .operator-btn:active{
   background-color: hsl(35,100%,75%);
 }
+
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.2em;
+  }
+
+  button {
+    width: 70px;
+    height: 70px;
+  }
+
+  button img {
+    width: 40%;
+    height: 40%;
+  }
+}
