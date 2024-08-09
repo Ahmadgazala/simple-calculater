@@ -69,17 +69,19 @@ button:active{
 
 
 @media (max-width: 600px) {
-  h2 {
-    font-size: 1.2em;
+  #display {
+    font-size: 2.5rem;
+    padding: 10px;
   }
 
   button {
-    width: 70px;
-    height: 70px;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
   }
 
-  button img {
-    width: 40%;
-    height: 40%;
+  #keys {
+    gap: 5px;
+    padding: 15px;
   }
 }
