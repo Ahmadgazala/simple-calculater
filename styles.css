@@ -67,26 +67,7 @@ button:active{
   background-color: hsl(35,100%,75%);
 }
 
-
-@media (max-width: 600px) {
-  #display {
-    font-size: 2.5rem;
-    padding: 10px;
-  }
-
-  button {
-    padding: 15px;
-    font-size: 1.5rem;
-    border-radius: 5px;
-  }
-
-  #keys {
-    gap: 5px;
-    padding: 15px;
-  }
-}
-
-
+/* تخصيص للأجهزة المحمولة */
 /* تخصيص للأجهزة المحمولة */
 @media (max-width: 600px) {
   #display {
@@ -106,3 +87,39 @@ button:active{
   }
 }
 
+/* تخصيص للأجهزة المحمولة */
+@media (max-width: 1000px) {
+  #display {
+    font-size: 4rem; /* تقليل حجم الخط ليتناسب مع الشاشات الصغيرة */
+    padding: 15px;
+  }
+
+  #keys {
+    gap: 7px;
+    padding: 20px;
+  }
+
+  button {
+    width: 85px; /* تقليل حجم الأزرار */
+    height: 85px;
+    font-size: 2.5rem; /* تقليل حجم النص على الأزرار */
+  }
+}
+
+@media (max-width: 1000px) {
+  #display {
+    font-size: 4rem; /* تقليل حجم الخط ليتناسب مع الشاشات المتوسطة */
+    padding: 15px;
+  }
+
+  #keys {
+    gap: 7px;
+    padding: 20px;
+  }
+
+  button {
+    width: 85px; /* تقليل حجم الأزرار */
+    height: 85px;
+    font-size: 2.5rem; /* تقليل حجم النص على الأزرار */
+  }
+}
